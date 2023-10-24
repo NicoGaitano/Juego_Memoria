@@ -1,6 +1,8 @@
 # Juego_Memoria
 
 Deploy : https://juegodememoria-one.vercel.app/
+
+
 El proyecto "Juego de Memoria" consiste en que el usuario tiene un lapso de quice segundos para memorizar las imagenes y nombres de los animales.
 
 ![imagen_juego](https://github.com/NicoGaitano/Juego_Memoria/assets/148820308/4772e41d-619e-4e10-bc52-6a6a7700e41d)
