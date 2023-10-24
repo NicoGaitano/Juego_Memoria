@@ -1,0 +1,110 @@
+body{
+    background-image: radial-gradient(circle at 94.92% 50%, #ff8053 0, #ff684e 25%, #f94646 50%, #e91140 75%, #dc0040 100%);
+    
+}
+
+.titulo, .mensajeOFF ,.titulo_principal{
+    text-align: center;
+}
+.titulo,.mensajeOFF,.boton,.titulo_principal, p,label{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+#formulario{
+    display: contents;
+}
+
+#contenedor{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1%;
+  align-items: center;
+  justify-content : center;
+}
+img{
+    width: 9%;
+    margin: 6%;
+    border: 5px solid white;
+}
+p{
+    width: 3%;
+    position: relative;
+    bottom: 85px;
+    right: 13%;
+    font-size: 25px;
+    text-align : center;
+}
+
+.campos{
+    margin: 2%;
+    border-radius: 15px;
+    width: 20%;
+    
+}
+
+.boton{
+    margin: auto;
+    display: block;
+    background-color: #800040;
+    
+}
+
+.cajaIpunt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label{
+    margin: 1px;
+}
+
+@media (max-width: 1032px) {
+    p{
+       
+        bottom: 145px;
+        right: 29%;   
+    }
+
+    img {
+        width: 43%;
+        margin: 6%;
+    }
+    }
+
+    @media (max-width: 802px) {
+        p{
+            bottom: 112px;
+            right: 32%;  
+        }  
+        .campos{
+            width: 69%;
+        } 
+        }
+
+
+        @media (max-width: 550px) {
+            p{
+                bottom: 83px;
+                right: 33%; 
+            }   
+            
+            }
+
+
+            
+        @media (max-width: 414px) {
+            p{
+                bottom: 68px;
+                right: 36%;
+            }   
+            }
+
+
+            @media (max-width: 337px) {
+                p{
+                    bottom: 55px;
+                    right: 37%;
+                }   
+                }
+

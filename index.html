@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="img/...">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Juego de Memoria</title>
+</head>
+<body>
+  <h1 class="titulo_principal">JUEGO DE MEMORIA</h1>
+    <h2 class="titulo" id ="mensaje"></h2>
+    <h3 class="mensajeOFF" id="mensaje_offline"></h3>
+    <div  id ="contenedor">
+    </div>
+    <div id = "contenedorDos" style = "display: none;">
+      <div class="cajaIpunt">
+      <form name ="formulario" id="formulario">
+        <label>Primera imagen</label>
+    <input type="text" class="campos" id="inputUno" name="animalUno">
+    <label>Segunda imagen</label>
+    <input type="text"   class="campos" id="inputDos" name="animalDos">
+    <label>Tercera imagen</label>
+    <input type="text"  class="campos" id="inputTres" name="animalTres">
+    <label>Cuarta imagen</label>
+    <input type="text"  class="campos" id ="inputCuatro" name="animalCuatro">
+    <label>Quita imagen</label>
+    <input type="text" class="campos" id="inputCinco" name="animalQuinto">
+    <label>Sexta imagen</label>
+    <input type="text" class="campos" id="InputSeis" name="animalSexto">
+    <label>Septima imagen</label>
+    <input type="text" class="campos" id="InputSiete" name="animalSeptimo">
+    <label>Octava imagen</label>
+    <input type="text" class="campos" id="InputOcho" name="animalOctavo">
+  </form>  
+    <input type="button" class ="boton" value="Completar" onclick="juego40()">
+  </div>
+    </div>
+</body>
+<script src="App.js"></script>
+</html>
