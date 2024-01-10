@@ -1,4 +1,4 @@
-# Juego_Memoria
+# Juego Memoria
 
 Deploy : https://juegodememoria-one.vercel.app/
 
