@@ -179,7 +179,7 @@ for (let animal of animales) {
                       }); 
                     });
                      })
-                 }else if(correctas == incorrectas){
+                 }else{
                   clearInterval(JuegoComienzo)
                   swal({
                       icon: "warning",
