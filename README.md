@@ -1,5 +1,7 @@
 # Juego Memoria
 
+Tecnologias Utilizadas : HTML5, CSS3 , JavaScript, SweetAlert.
+
 Deploy : https://juegodememoria-one.vercel.app/
 
 
